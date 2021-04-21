@@ -1,0 +1,40 @@
+
+body {
+    margin: 0;
+  }
+  
+  .container {
+    height: 100vh;
+  }
+  
+  .chart-wrapper {
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+  }
+
+  .dataName{
+    font-weight: 600;
+  }
+
+  .marginOkay{
+    margin-top: 300px;
+  }
+
+  .infoTechnology{
+  color: #4b6584;
+  }
+
+  .infoFinancials{
+    color: #fbc531;
+  }
+
+  .infoTechnology li, .infoFinancials li{
+    list-style-type: none;
+    font-size: 22px;
+  }
+
+  .infoTechnology a, .infoFinancials a {
+    text-decoration: underline;
+    color: inherit !important;
+  }

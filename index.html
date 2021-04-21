@@ -1,0 +1,60 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.1.1/dist/chart.min.js"></script>
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+    crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-lg-4"></div>
+            <div class="col-lg-4 mt-5 mb-5">
+                <h1>Akcie</h1>
+            </div>
+            <div class="col-lg-4"></div>
+          </div>
+          <div class="row">
+            <div class="col-lg-2"></div>
+            <div class="chart-wrapper col-lg-8">
+                <canvas id="myChart"></canvas>
+            </div>
+            <div class="col-lg-2"></div>
+          </div>
+          <div class="info marginOkay">
+            <div class="row">
+                <div class="col-lg-3"></div>
+                <div class="col-lg-6 infoTechnology">
+                    <hr>
+                    <h3>Technology</h3>
+                    <div class="infoData text-center mt-5"></div>
+                    <hr>
+                </div>
+                <div class="col-lg-3"></div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3"></div>
+                <div class="col-lg-6 infoFinancials">
+                    <hr>
+                    <h3>Financials</h3>
+                    <div class="infoData text-center mt-5"></div>
+                    <hr>
+                </div>
+                <div class="col-lg-3"></div>
+            </div>
+          </div>
+        </div>
+    </div>
+    
+</body>
+
+<script src="./js/app.js"></script>
+<script src="./js/info.js"></script>
+</html>
